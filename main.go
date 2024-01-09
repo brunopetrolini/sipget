@@ -1,7 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"log"
+	"os"
+	"sipget/app"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+	application := app.Generate()
+
+	if error := application.Run(os.Args); error != nil {
+		log.Fatal(error)
+	}
 }
