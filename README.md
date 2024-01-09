@@ -2,7 +2,7 @@
 
 ## Introduction
 
-SIPGET is a command-line interface (CLI) application built with Go. It is designed to return the IP address and public server name of a given web address. This tool is useful for network diagnostics and studying the fundamentals of the Go language.
+SIPGET is a command line interface (CLI) application built with Go. It is designed to return the IP address and public server name of a given web address. This tool was built with the aim of studying the fundamentals of the Go language.
 
 ## Installation
 
